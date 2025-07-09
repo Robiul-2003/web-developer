@@ -30,7 +30,8 @@ nav{
     display:flex;
  align-items: center;
   justify-content: space-between;
-  margin:50px 200px;
+  margin:0px 200px;
+  
 }
 .nav-title{
   font-weight:800;
@@ -64,7 +65,9 @@ font-size:20px;
   font-size:18px;
   color:#757575;
 }
-
+.text-center{
+  text-align:center;
+}
 
 /*header img*/
 .header{
@@ -99,14 +102,17 @@ main{
   width:1140px;
   margin:0 auto;
 }
-
+main section{
+  margin-top:130px;
+  margin-bottom:130px;
+}
 
 /* about style */
 .about{
   border-radius:10px;
   padding:130px 150px;
   text-align: center;
-  margin-top:130px;
+ 
 }
 .about-items{
  display: flex;
@@ -114,4 +120,14 @@ main{
 }
 .item-description{
  font-weight:600;
+}
+/* skills-section style */
+.skills-container{
+  display: flex;
+  gap:24px;
+}
+.skill{
+  padding:30px;
+  border-radius:5px;
+  box-shadow:0px 6px 50px 0px rgba(0,0,0,0.06);
 }
